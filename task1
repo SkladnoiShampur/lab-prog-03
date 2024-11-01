@@ -1,0 +1,52 @@
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Введите порядковый номер месяца");
+    int a;
+    scanf("%d", &a);
+    if (a==1) {
+        printf("Январь");
+    }
+    if (a==2) {
+        printf("Февраль");
+    }
+    if (a==3) {
+        printf("Март");
+    }
+    if (a==4) {
+        printf("Апрель");
+    }
+    if (a==5) {
+        printf("Май");
+    }
+    if (a==6) {
+        printf("Июнь");
+    }
+    if (a==7) {
+        printf("Июль");
+    }
+    if (a==8) {
+        printf("Август");
+    }
+    if (a==9) {
+        printf("Сентябрь");
+    }
+    if (a==10) {
+        printf("Октябрь");
+    }
+    if (a==11) {
+        printf("Ноябрь");
+    }
+    if (a==12) {
+        printf("Декабрь");
+    }
+    if (a>12) {
+        printf("Ввели неверный номер");
+    }
+    if (a<1) {
+        printf("Ввели неверный номер");
+    }
+    return 0;
+}
